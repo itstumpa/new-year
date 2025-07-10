@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+ padding: 0;
+  margin: 0;
+box-sizing: border-box;
+}
+body{
+  
+}
+
+.hero-banner {
+  position: relative;
+  width: 1320px;
+      height: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+  top: 40px;
+}
+
+.hero-banner img {
+  width: 1320px;
+      height: 600px;
+  object-fit: cover;
+  display: block;
+}
+
+/* 🔥 Color overlay on top of image */
+.color-overlay {
+  position: absolute;
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  width: 1320px;
+      height: 600px;
+  background-color: rgba(0, 0, 0, 0.4); /* 👈 black with 70% opacity */
+}
+
+/* Optional text over it */
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+.banner-content h1{
+        font-size: 72px;
+      font-family: Merriweather;
+
+}
+.banner-content h3{
+      font-size: 32px;
+      font-weight: 400;
+      font-family: Merriweather;
+}
+
+/* new-year-image section */
+
+
+.categories{
+      position: relative;
+margin-top: 125px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+
+.categories .new-year-image{
+width: 802px;
+height: 500px;
+  margin: 30px 0 100px 0px;
+
+  display: block;
+  margin: 0 auto;
+}
+.categories h1{
+      font-size: 88px;
+      color: #FF0000;
+      font-family: inter;
+}
+.categories h5{
+      font-size: 25px;
+      color: #FF0000;
+      font-weight: 500;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-family: inter;
+}
+.categories h2{
+      font-size: 42px;
+      font-family: inter;
+      margin-bottom: 50px;
+}
+
+.midnight-party-content{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 30%;
+  left: 30%;
+  font-family: Merriweather;
+   z-index: 2;
+}
+.midnight-party-content p{
+  margin-top: 25px;
+  font-family: inter;
+  font-size:small;
+}
+.midnight-party-content h1{
+  font-size: 64px;
+  letter-spacing:11px;
+}
+
+.midnight-party{
+  position: relative;
+margin-top: 125px;
+margin-bottom: 125px;
+}
+
+.vectorrr {
+  position: relative;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.vectorrr-img{
+  width: 1320px;
+  height: 600px;
+  display: block;
+  /* margin-bottom: 125px; */
+}
+.vectorrr-img-two{
+  position: absolute;
+  top: 50%;                /* Center vertically */
+  right: 90px;             /* Push from the right edge */
+  transform: translateY(-50%);
+  width: 340px;
+  z-index: 1;
+}
+
+.color-overlay-two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1320px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+}
+.midnight-party button{
+  color: white;
+  background-color: transparent; /* removes background */
+  cursor: pointer;              /* shows pointer on hover */
+  border: none;                  /* optional: removes border */
+font-size: 20px;  
+font-family: inter;
+font-weight: bold;
+margin-top: 40px;
+margin-left: 35px;
+}
+
+/* section-4 */
+
+
+.New-Park-Hotel{
+background: linear-gradient(to bottom, #ffe4e1, #ffffff);  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  margin-bottom: 125px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;  /* Horizontal center */
+  align-items: center;      /* Vertical center */
+  text-align: center;
+  font-size: 32px;
+  font-family: inter;
+    flex-direction: column; /* 👈 Stack items vertically */
+
+}
+.New-Park-Hotel h3 {
+  font-weight:600;
+ 
+text-align: center;
+/* margin: 0 auto; */
+/* top: 40%; */
+
+}
+.New-Park-Hotel h3 span{
+  color: #FF0000;
+}
+
+.New-Park-Hotel button{
+  background-color: #FF0000;
+  color: white;
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 60px;
+}
+
+
+/* coming-soon */
+
+.coming-soon{
+  width: 1320px;
+  display: flex;
+  /* justify-content: center;  Horizontal center */
+  align-items: center;      /* Vertical center */
+  /* text-align: center; */
+  /* font-size: 32px; */
+  font-family: inter;
+  margin: 0 auto;
+  
+}
+
+
+.best-offer h3{
+  color: #FF0000;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.best-offer h1{
+  font-size: 48px;
+  font-family: Merriweather;
+    padding: 20px 100px 20px 0px;
+
+}
+.best-offer p{
+  color: #96949b;
+  font-weight: normal;
+}
+.happy{
+  align-items: center;
+}
+.happy h1{
+  font-size: 48px;
+  font-family: inter;
+    padding: 0px 0px 10px 100px;
+    color: #FF0000;
+}
+
+.happy p{
+      padding: 10px 0px 20px 100px;
+
+}
+.happy img{
+      padding: 20px 0px 20px 100px;
+
+}
+.circle {
+width: 420px;
+  height: 420px;
+border: 15px solid red;  /* Pink ring */
+  border-radius: 50%;
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;       
+/* padding: 0 10px 20px 10px; */
+}
+
+.coming-soon .ellipse {
+  width: 365px;
+  height: 365px; z-index: 2;
+  position: relative;
+    display: block;
+
+}
+.wrapper{
+   position: relative;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
