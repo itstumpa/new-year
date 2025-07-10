@@ -141,7 +141,7 @@ margin-bottom: 125px;
   right: 90px;             /* Push from the right edge */
   transform: translateY(-50%);
   width: 340px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .color-overlay-two {
@@ -150,7 +150,7 @@ margin-bottom: 125px;
   left: 0;
   width: 1320px;
   height: 600px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 15px;
 }
 .midnight-party button{
@@ -218,9 +218,13 @@ text-align: center;
   /* font-size: 32px; */
   font-family: inter;
   margin: 0 auto;
-  
-}
+      padding: 20px 100px 20px 50px;
 
+}
+/* section .coming{
+        padding: 20px 100px 20px 40px;
+
+} */
 
 .best-offer h3{
   color: #FF0000;
@@ -238,43 +242,44 @@ text-align: center;
   color: #96949b;
   font-weight: normal;
 }
+
+
+
+
+
 .happy{
   align-items: center;
+      padding: 20px 0px 20px 150px;
+
 }
 .happy h1{
   font-size: 48px;
+  margin-bottom: 20px;
   font-family: inter;
-    padding: 0px 0px 10px 100px;
     color: #FF0000;
 }
 
 .happy p{
-      padding: 10px 0px 20px 100px;
-
+  margin-bottom: 50px;
 }
-.happy img{
-      padding: 20px 0px 20px 100px;
 
-}
 .circle {
 width: 420px;
   height: 420px;
-border: 15px solid red;  /* Pink ring */
+border: 15px solid red;
   border-radius: 50%;
   position: absolute;
   bottom: -28px;
-  left: 50%;
+  left: 54%;
   transform: translateX(-50%);
-  z-index: 1;       
-/* padding: 0 10px 20px 10px; */
 }
 
 .coming-soon .ellipse {
   width: 365px;
-  height: 365px; z-index: 2;
+  height: 365px; 
   position: relative;
     display: block;
-
+margin: 0 0 0 30px;
 }
 .wrapper{
    position: relative;
@@ -282,14 +287,64 @@ border: 15px solid red;  /* Pink ring */
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .image-container {
   position: relative;
   display: inline-block;
+  
+}
+.coming{
+  margin-bottom: 130px;
 }
 
 
 
+
+/* functional-content */
+
+
+.functional-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+    margin-bottom: 120px;
+
+}
+.functional-content h3{
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+  font-family: inter;
+  margin-bottom: 20px;
+}
+.functional-content h1{
+  font-size: 72px;
+  font-family: Merriweather;
+  color: #070211;
+  margin-bottom: 30px;
+
+}
+.functional-content span{
+  color: #FF0000;
+}
+
+.image-one{
+  background-image:url('/images/Rectangle 2.png');
+  width: 1320px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 500px;
+  margin-bottom: 130px;
+}
+.image-two{
+   background-image:url('/images/Group\ 75.png');
+     margin: 0 auto;
+width: 675px;
+height: 577px;
+}
 
 
 
